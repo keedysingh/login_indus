@@ -1,0 +1,18 @@
+[
+    {
+        "userId":1,
+        "username": "pratik",
+        "email": "pratik@gmail.com",
+        "password": "$2a$12$xSjLKyniQsKmT8DKmz8VROv7Gv3eSZNVZV8TEiibDQJHXqDYLtKCC",
+        "profilePic":"http://placekitten.com/200/300"
+    },
+     {
+        "userId":2,
+        "username": "kuldeep",
+        "email": "kuldeep@gmail.com",
+        "password": "$2a$12$IsaI7LW43r3om3366mvujOROLDSi6Ddt139TUscOG5rFdVojDQiJO",
+        "profilePic":"http://placekitten.com/200/300"
+    }
+
+   
+]

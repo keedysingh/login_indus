@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   
+  </head>
+
+  <body>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="image/loginuser.png" id="icon" alt="User Icon" />
+      </div>
+  
+      <!-- Login Form -->
+      <form>
+        <input type="text" id="username" class="fadeIn second" name="login" placeholder="login">
+        <input type="password" id="password" class="fadeIn third" name="password" placeholder="password">
+        <input type="button" id="submit"class="fadeIn fourth" value="Log In">
+      </form>
+      
+      <div class="alert alert-danger" role="alert" id="loginError">
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/login.js"></script>
+</html>
